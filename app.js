@@ -134,7 +134,7 @@ function afficherResultats(tabCheck) {
             aideResultat.style.display = "block";
             noteResultat.style.display = "block";
             noteResultat.innerText = '2/10';
-            images.setAttribute("src", "https://media.tenor.com/images/f8ba3b9c8c41590182b22ce4856efdb6/tenor.gif");
+            images.setAttribute("src", "https://media.tenor.com/images/cfbfd6630742b12eda9f412c2d97eaae/tenor.gif");
             images.style.marginLeft = "auto";
             images.style.marginRight = "auto";
             images.style.display = "block";
