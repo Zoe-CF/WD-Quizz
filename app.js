@@ -1,6 +1,6 @@
 const form = document.querySelector('.form-quizz');
 let tableauResultats = [];
-const reponses = ['a', 'b', 'a', 'b', 'c'];
+const reponses = ['a', 'b', 'c', 'b', 'c'];
 const emojis = ['✔️', '✨', '👀', '😭', '👎', '🍪'];
 const titreResultat = document.querySelector('.resultats .info')
 const noteResultat = document.querySelector('.note')
