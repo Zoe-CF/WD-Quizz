@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-global">
+      <h1>Quizz The Walking Dead RPG - The Remnant</h1>
+
+      <form class="form-quizz">
+        <div class="question-block">
+          <h4>
+            The Remnant : de quel pôle miss Jones est responsable au sein du
+            fort ?
+          </h4>
+
+          <div>
+            <input type="radio" id="Intendante" name="q1" value="a" checked />
+            <label for="Intendante">Intendance</label>
+          </div>
+          <div>
+            <input type="radio" id="Dispensaire" name="q1" value="b" />
+            <label for="Dispensaire">Dispensaire</label>
+          </div>
+          <div>
+            <input type="radio" id="Expédition" name="q1" value="c" />
+            <label for="Expédition">Expédition</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>
+            The Remnant : quel personnage a attaqué June en automne dernier ?
+          </h4>
+
+          <div>
+            <input type="radio" id="roza" name="q2" value="a" checked />
+            <label for="roza">Roza</label>
+          </div>
+          <div>
+            <input type="radio" id="clyde" name="q2" value="b" />
+            <label for="clyde">Clyde</label>
+          </div>
+          <div>
+            <input type="radio" id="Clayton" name="q2" value="c" />
+            <label for="Clayton">Clayton</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>
+            The Remnant : combien de rateaux s'est mangé Aodhan depuis son
+            arrivée à TR ?
+          </h4>
+
+          <div>
+            <input type="radio" id="rep1" name="q3" value="a" checked />
+            <label for="rep1">1</label>
+          </div>
+          <div>
+            <input type="radio" id="rep2" name="q3" value="b" />
+            <label for="rep2">2</label>
+          </div>
+          <div>
+            <input type="radio" id="rep99" name="q3" value="c" />
+            <label for="rep99">99</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>The Remnant : Par quoi Zelda s'illustre le mieux ?</h4>
+
+          <div>
+            <input type="radio" id="intelligence" name="q4" value="a" checked />
+            <label for="intelligence">Son intelligence</label>
+          </div>
+          <div>
+            <input type="radio" id="connerie" name="q4" value="b" />
+            <label for="connerie">Sa connerie</label>
+          </div>
+          <div>
+            <input type="radio" id="perspicacité" name="q4" value="c" />
+            <label for="perspicacité">Sa perspicacité</label>
+          </div>
+        </div>
+
+        <div class="question-block">
+          <h4>The Remnant : Comment se nomme le chien d'Arizona ?</h4>
+
+          <div>
+            <input type="radio" id="roquette" name="q5" value="a" checked />
+            <label for="roquette">Roquette</label>
+          </div>
+          <div>
+            <input type="radio" id="croquette" name="q5" value="b" />
+            <label for="croquette">Croquette</label>
+          </div>
+          <div>
+            <input type="radio" id="tank" name="q5" value="c" />
+            <label for="tank">Tank</label>
+          </div>
+        </div>
+
+        <button type="submit">Valider</button>
+      </form>
+
+      <div class="resultats">
+        <div class="info">Cliquez sur Valider pour voir les résultats</div>
+        <p class="aide"></p>
+        <p class="note"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
