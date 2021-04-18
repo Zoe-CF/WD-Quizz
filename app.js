@@ -89,9 +89,9 @@ function couleursFonction(tabValBool) {
     for (let j = 0; j < tabValBool.length; j++) {
 
         if (tabValBool[j] === true) {
-            toutesLesQuestions[j].style.background = 'lightgreen';
+            toutesLesQuestions[j].style.background = 'darkgreen';
         } else {
-            toutesLesQuestions[j].style.background = '#ffb8b8';
+            toutesLesQuestions[j].style.background = 'darkred';
             toutesLesQuestions[j].classList.add('echec');
 
             setTimeout(() => {
@@ -103,6 +103,6 @@ function couleursFonction(tabValBool) {
 
 toutesLesQuestions.forEach(item => {
     item.addEventListener('click', () => {
-        item.style.background = "white";
+        item.style.background = "linear-gradient(90deg, #121213, #0e0e0e)";
     })
 })
