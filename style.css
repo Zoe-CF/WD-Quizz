@@ -117,10 +117,10 @@ form button:hover {
     transform: translateX(0px);
   }
   33% {
-    transform: translateX(5px);
+    transform: translateX(7px);
   }
   66% {
-    transform: translateX(-5px);
+    transform: translateX(-7px);
   }
   100% {
     transform: translateX(0px);
