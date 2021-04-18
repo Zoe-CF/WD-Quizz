@@ -42,31 +42,39 @@ function afficherResultats(tabCheck) {
         case 0:
             titreResultat.innerText = "✔️ Bravo, c'est un sans faute ! Voila un cookie : 🍪 !"
             aideResultat.innerText = '';
+            noteResultat.style.display = "block";
             noteResultat.innerText = '5/5, noice !';
             break;
         case 1:
             titreResultat.innerText = `✨ Vous y êtes presque ! ✨`
             aideResultat.innerText = 'Retentez une autre réponse dans la case rouge, puis re-validez !'
+            noteResultat.style.display = "block";
             noteResultat.innerText = '4/5'
             break;
         case 2:
             titreResultat.innerText = `✨ Encore un effort ... 👀`
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !'
+            noteResultat.style.display = "block";
             noteResultat.innerText = '3/5'
             break;
         case 3:
             titreResultat.innerText = `👀 Il reste quelques erreurs. 😭`
+            noteResultat.style.display = "block";
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !'
             noteResultat.innerText = '2/5'
             break;
         case 4:
             titreResultat.innerText = `😭 Niarf, une seule bonne réponse 😭`
+            noteResultat.style.display = "block";
+            aideResultat.style.display = "block";
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !'
             noteResultat.innerText = '1/5'
             break;
         case 5:
             titreResultat.innerText = `👎 Même pas une bonne réponse, i'm so sad 👎`
             aideResultat.innerText = 'Retentez une autre réponse dans les cases rouges, puis re-validez !'
+            aideResultat.style.display = "block";
+            noteResultat.style.display = "block";
             noteResultat.innerText = '0/5'
             break;
 
